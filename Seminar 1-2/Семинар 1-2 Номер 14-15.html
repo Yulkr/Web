@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<h1>15</h1>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Первый абзац</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Второй абзац</p>
+
+<script>
+
+      function fontS(val){
+      document.getElementById("hz").style.fontSize=val+"px";
+      }
+    </script>
+  
+
+    <div id="head">MIN Min</div>
+      <script>
+          var l = 5, m = 1,
+              style = document.getElementById("head").style;
+          func();
+          var id = setInterval(function () {
+              if (--l === m) clearInterval(id);
+              func();
+          }, 1000); // Интервал в 1 секунду
+  
+          function func() {
+              style.fontSize = l + "em";
+          }
+      </script>
+  </body>
+  </html>
