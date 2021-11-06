@@ -1,0 +1,31 @@
+.log {
+    height: 1000px;
+    background: #86b7fe;
+    background-size: cover;
+    position: relative;
+}
+
+.login-dark form .form-control {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #434a52;
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
+    color: inherit;
+}
+
+
+.login-dark form .btn-primary:active {
+    transform: translateY(1px);
+}
+.d-md-flex{
+    background: #86b7fe;
+}
+.btn{
+    background: #0c63e4;
+    height: 40px;
+    width: 40px;
+}
+
+
